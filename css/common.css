@@ -1,0 +1,77 @@
+/* Global styles */
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+background-color: #fff;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Logo */
+
+.web {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.33333;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.studio {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.33333;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+
+/*button*/
+
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-hero {
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+background: #404bbf;
+}
+
+/* section */
+
+.section-title {
+    font-size: 36px;
+line-height: 1.11;
+text-align: center;
+color: #2e2f42;
+letter-spacing: 0.02em;
+}
