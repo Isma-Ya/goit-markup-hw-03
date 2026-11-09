@@ -1,77 +1,83 @@
-/* Global styles */
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-background-color: #fff;
-}
-
-ol, ul {
-    list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-button {
-    cursor: pointer;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
-address {
-    font-style: normal;
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: inherit;
+  margin: 0;
 }
 
-/* Logo */
-
-.web {
-    font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.33333;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: inherit;
+  margin: 0;
 }
 
-.studio {
-    font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.33333;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2e2f42;
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: inherit;
+  margin: 0;
 }
 
-/*button*/
-
-.btn {
-    background-color: transparent;
-    border: none;
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+  margin: 0;
 }
 
-.btn-hero {
-font-weight: 500;
-letter-spacing: 0.04em;
-color: #fff;
-background: #4d5ae5;
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.btn-hero:hover,
-.btn-hero:focus {
-background: #404bbf;
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
-/* section */
+.section {
+  padding: 120px 0;
+}
 
-.section-title {
-    font-size: 36px;
-line-height: 1.11;
-text-align: center;
-color: #2e2f42;
-letter-spacing: 0.02em;
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
