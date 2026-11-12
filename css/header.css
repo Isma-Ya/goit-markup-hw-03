@@ -1,9 +1,11 @@
-.header-container {
-  display: flex;
-  align-items: center;
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .header-nav {
   display: flex;
@@ -18,7 +20,7 @@
   text-transform: uppercase;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  margin-right: 76px; 
+  margin-right: 76px;
 }
 
 .logo > span {
@@ -46,7 +48,7 @@
 
 .top-adress {
   font-style: normal;
-  margin-left: auto; 
+  margin-left: auto;
 }
 
 .adress-list {
